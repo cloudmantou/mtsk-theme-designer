@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "moye.night",
+  "name": "墨夜",
+  "author": "mtsk",
+  "version": "1.0",
+  "description": "示例主题：基于纸墨，藏青墨色配鎏金强调，衬线标题，圆角收紧",
+  "base": "refined",
+  "colors": {
+    "inkCanvas": { "light": "#F4F1EA", "dark": "#0E1220" },
+    "inkSurface": { "light": "#FFFDF8", "dark": "#1A2033" },
+    "inkFill": { "light": "#E8E2D6", "dark": "#151A2B" },
+    "inkText": { "light": "#1B1F2A", "dark": "#E9E4D8" },
+    "inkTextSecondary": { "light": "#5E6472", "dark": "#A7ABB8" },
+    "inkTextTertiary": { "light": "#9AA0AC", "dark": "#6B7083" },
+    "inkHairline": { "light": "#1B1F2A14", "dark": "#E9E4D814" },
+    "inkOutline": { "light": "#1B1F2A2E", "dark": "#E9E4D82E" },
+    "inkAccent": { "light": "#9A6B12", "dark": "#D9A441" },
+    "inkAccentSoft": { "light": "#9A6B121F", "dark": "#D9A44133" },
+    "inkDanger": { "light": "#A33A2C", "dark": "#E07A66" },
+    "inkDrawerTop": "#1C2238",
+    "inkDrawerBottom": "#0B0E19",
+    "inkDrawerText": "#E9E4D8",
+    "inkChromeForeground": { "light": "#1B1F2A", "dark": "#FFFFFF" },
+    "inkChromePaperBar": { "light": "#EFEBE2", "dark": "#121728" }
+  },
+  "tokens": {
+    "accent": "#9A6B12",
+    "largeRadius": 14,
+    "mediumRadius": 10,
+    "buttonRadius": 8,
+    "topBarTitleDesign": "serif"
+  }
+}

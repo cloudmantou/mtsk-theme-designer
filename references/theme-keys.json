@@ -1,0 +1,775 @@
+{
+  "schemaVersion": 1,
+  "_comment": "由 mtsk 源码生成；ThemeSkillSpecTests 保证与 App 一致。不要手改，改代码后重新生成。",
+  "topLevel": {
+    "required": [
+      "schemaVersion",
+      "id",
+      "name",
+      "base"
+    ],
+    "optional": [
+      "author",
+      "version",
+      "description",
+      "colors",
+      "layout",
+      "behavior",
+      "tokens"
+    ],
+    "maxLength": {
+      "name": 40,
+      "author": 60,
+      "version": 20,
+      "description": 200
+    },
+    "idPattern": "^[a-z0-9][a-z0-9._-]{2,63}$",
+    "idForbiddenPrefix": "builtin.",
+    "maxManifestBytes": 262144
+  },
+  "bases": [
+    "classic",
+    "refined"
+  ],
+  "colorRoles": [
+    {
+      "name": "inkCanvas",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkSurface",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkFill",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkText",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkTextSecondary",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkTextTertiary",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkHairline",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkOutline",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkAccent",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkAccentSoft",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkDanger",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkDrawerTop",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkDrawerBottom",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkDrawerCard",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkDrawerHairline",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkDrawerText",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkChromeForeground",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkChromePaperBar",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkChromeGlassTint",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkChromeWell",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "inkChromeRim",
+      "group": "纸墨原色"
+    },
+    {
+      "name": "groupedCanvas",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "pageCanvas",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "cardSurface",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "fieldFill",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "primaryText",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "secondaryText",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "tertiaryText",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "primaryStyle",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "secondaryStyle",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "tertiaryStyle",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "separator",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "appTint",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "labelText",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "secondaryLabelText",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "tertiaryFill",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "placeholderShimmer",
+      "group": "跨皮肤页面色"
+    },
+    {
+      "name": "filterText",
+      "group": "页面专用"
+    },
+    {
+      "name": "filterDot",
+      "group": "页面专用"
+    },
+    {
+      "name": "sourcePickerCurrentFill",
+      "group": "页面专用"
+    },
+    {
+      "name": "siteChipOutline",
+      "group": "页面专用"
+    },
+    {
+      "name": "siteBatchNeutral",
+      "group": "页面专用"
+    },
+    {
+      "name": "siteBatchDestructive",
+      "group": "页面专用"
+    },
+    {
+      "name": "siteCheckActive",
+      "group": "页面专用"
+    },
+    {
+      "name": "siteFloatingOutline",
+      "group": "页面专用"
+    },
+    {
+      "name": "chromeBackground",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeControl",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeInactive",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeIcon",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeSecondaryText",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeAccent",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeHairline",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeSubtleFill",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeWell",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeFloatingButton",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "chromeForeground",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "readerPanelBackground",
+      "group": "阅读器外框"
+    },
+    {
+      "name": "readerPanelControl",
+      "group": "阅读器外框"
+    }
+  ],
+  "colorRolesAllowingNone": [
+    "appTint"
+  ],
+  "layoutFamilies": [
+    "button",
+    "rowHighlight",
+    "topBarDivider",
+    "searchBar",
+    "pageState",
+    "bookCover",
+    "bookFeedRow",
+    "listSurface",
+    "hairlineSeparator",
+    "drawerPush",
+    "rootDrawer",
+    "homeHeader",
+    "drawerSidebar",
+    "shelfList",
+    "shelfCover",
+    "shelfPlaceholder",
+    "localShelf",
+    "discoverTabs",
+    "discoverCategory",
+    "searchScope",
+    "searchFooter",
+    "bookDetail",
+    "catalog",
+    "sourceSwitchPage",
+    "siteManager",
+    "readerBars",
+    "readerTutorial",
+    "readerFontDrawer",
+    "readerSettings",
+    "readerChrome"
+  ],
+  "layoutVariants": [
+    "classic",
+    "ink"
+  ],
+  "behaviorFlags": [
+    "pageStateRiseIn",
+    "coverFadeIn",
+    "staggeredShelfAppear",
+    "readerStabilizesSafeArea",
+    "readerCatalogSlidesUp",
+    "readerStatusBarFollowsBars",
+    "readerFollowsThemeColorScheme",
+    "comicForcesDarkScheme",
+    "overridesSystemBars"
+  ],
+  "tokens": {
+    "accent": {
+      "kind": "color"
+    },
+    "readerAccent": {
+      "kind": "color"
+    },
+    "buttonOrange": {
+      "kind": "color"
+    },
+    "drawerBackground": {
+      "kind": "color"
+    },
+    "drawerRow": {
+      "kind": "color"
+    },
+    "hudBackground": {
+      "kind": "color"
+    },
+    "scrim": {
+      "kind": "color"
+    },
+    "buttonRadius": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 40.0
+    },
+    "hudRadius": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 40.0
+    },
+    "smallRadius": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 40.0
+    },
+    "mediumRadius": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 40.0
+    },
+    "largeRadius": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 40.0
+    },
+    "floatingShadowOpacity": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "floatingShadowRadius": {
+      "kind": "number",
+      "minimum": 0.0,
+      "maximum": 40.0
+    },
+    "floatingShadowX": {
+      "kind": "number",
+      "minimum": -40.0,
+      "maximum": 40.0
+    },
+    "floatingShadowY": {
+      "kind": "number",
+      "minimum": -40.0,
+      "maximum": 40.0
+    },
+    "pressedOpacity": {
+      "kind": "number",
+      "minimum": 0.2,
+      "maximum": 1.0
+    },
+    "pressedScale": {
+      "kind": "number",
+      "minimum": 0.85,
+      "maximum": 1.0
+    },
+    "topBarTitleSize": {
+      "kind": "number",
+      "minimum": 14.0,
+      "maximum": 26.0
+    },
+    "topBarTitleWeight": {
+      "kind": "fontWeight"
+    },
+    "topBarTitleDesign": {
+      "kind": "fontDesign"
+    }
+  },
+  "fontWeights": [
+    "bold",
+    "heavy",
+    "medium",
+    "regular",
+    "semibold"
+  ],
+  "fontDesigns": [
+    "default",
+    "monospaced",
+    "rounded",
+    "serif"
+  ],
+  "builtinLayout": {
+    "classic": {
+      "button": "classic",
+      "rowHighlight": "classic",
+      "topBarDivider": "classic",
+      "searchBar": "classic",
+      "pageState": "classic",
+      "bookCover": "classic",
+      "bookFeedRow": "classic",
+      "listSurface": "classic",
+      "hairlineSeparator": "classic",
+      "drawerPush": "classic",
+      "rootDrawer": "classic",
+      "homeHeader": "classic",
+      "drawerSidebar": "classic",
+      "shelfList": "classic",
+      "shelfCover": "classic",
+      "shelfPlaceholder": "classic",
+      "localShelf": "classic",
+      "discoverTabs": "classic",
+      "discoverCategory": "classic",
+      "searchScope": "classic",
+      "searchFooter": "classic",
+      "bookDetail": "classic",
+      "catalog": "classic",
+      "sourceSwitchPage": "classic",
+      "siteManager": "classic",
+      "readerBars": "classic",
+      "readerTutorial": "classic",
+      "readerFontDrawer": "classic",
+      "readerSettings": "classic",
+      "readerChrome": "classic"
+    },
+    "refined": {
+      "button": "ink",
+      "rowHighlight": "ink",
+      "topBarDivider": "ink",
+      "searchBar": "ink",
+      "pageState": "ink",
+      "bookCover": "ink",
+      "bookFeedRow": "ink",
+      "listSurface": "ink",
+      "hairlineSeparator": "ink",
+      "drawerPush": "ink",
+      "rootDrawer": "ink",
+      "homeHeader": "ink",
+      "drawerSidebar": "ink",
+      "shelfList": "ink",
+      "shelfCover": "ink",
+      "shelfPlaceholder": "ink",
+      "localShelf": "ink",
+      "discoverTabs": "ink",
+      "discoverCategory": "ink",
+      "searchScope": "ink",
+      "searchFooter": "ink",
+      "bookDetail": "ink",
+      "catalog": "ink",
+      "sourceSwitchPage": "ink",
+      "siteManager": "ink",
+      "readerBars": "ink",
+      "readerTutorial": "ink",
+      "readerFontDrawer": "ink",
+      "readerSettings": "ink",
+      "readerChrome": "ink"
+    }
+  },
+  "builtinBehavior": {
+    "classic": {
+      "pageStateRiseIn": false,
+      "coverFadeIn": false,
+      "staggeredShelfAppear": false,
+      "readerStabilizesSafeArea": false,
+      "readerCatalogSlidesUp": false,
+      "readerStatusBarFollowsBars": false,
+      "readerFollowsThemeColorScheme": false,
+      "comicForcesDarkScheme": true,
+      "overridesSystemBars": false
+    },
+    "refined": {
+      "pageStateRiseIn": true,
+      "coverFadeIn": true,
+      "staggeredShelfAppear": true,
+      "readerStabilizesSafeArea": true,
+      "readerCatalogSlidesUp": true,
+      "readerStatusBarFollowsBars": true,
+      "readerFollowsThemeColorScheme": true,
+      "comicForcesDarkScheme": false,
+      "overridesSystemBars": true
+    }
+  },
+  "refinedLinks": {
+    "groupedCanvas": {
+      "source": "inkCanvas",
+      "opacity": 1.0
+    },
+    "pageCanvas": {
+      "source": "inkCanvas",
+      "opacity": 1.0
+    },
+    "cardSurface": {
+      "source": "inkSurface",
+      "opacity": 1.0
+    },
+    "fieldFill": {
+      "source": "inkFill",
+      "opacity": 1.0
+    },
+    "primaryText": {
+      "source": "inkText",
+      "opacity": 1.0
+    },
+    "primaryStyle": {
+      "source": "inkText",
+      "opacity": 1.0
+    },
+    "labelText": {
+      "source": "inkText",
+      "opacity": 1.0
+    },
+    "secondaryText": {
+      "source": "inkTextSecondary",
+      "opacity": 1.0
+    },
+    "secondaryStyle": {
+      "source": "inkTextSecondary",
+      "opacity": 1.0
+    },
+    "secondaryLabelText": {
+      "source": "inkTextSecondary",
+      "opacity": 1.0
+    },
+    "tertiaryText": {
+      "source": "inkTextTertiary",
+      "opacity": 1.0
+    },
+    "tertiaryStyle": {
+      "source": "inkTextTertiary",
+      "opacity": 1.0
+    },
+    "separator": {
+      "source": "inkHairline",
+      "opacity": 1.0
+    },
+    "siteFloatingOutline": {
+      "source": "inkHairline",
+      "opacity": 1.0
+    },
+    "appTint": {
+      "source": "inkAccent",
+      "opacity": 1.0
+    },
+    "chromeAccent": {
+      "source": "inkAccent",
+      "opacity": 1.0
+    },
+    "siteCheckActive": {
+      "source": "inkAccent",
+      "opacity": 1.0
+    },
+    "sourcePickerCurrentFill": {
+      "source": "inkAccentSoft",
+      "opacity": 1.0
+    },
+    "tertiaryFill": {
+      "source": "inkFill",
+      "opacity": 1.0
+    },
+    "siteBatchNeutral": {
+      "source": "inkFill",
+      "opacity": 1.0
+    },
+    "siteChipOutline": {
+      "source": "inkOutline",
+      "opacity": 1.0
+    },
+    "filterText": {
+      "source": "inkText",
+      "opacity": 0.78
+    },
+    "filterDot": {
+      "source": "inkTextTertiary",
+      "opacity": 0.6
+    },
+    "siteBatchDestructive": {
+      "source": "inkDanger",
+      "opacity": 0.18
+    },
+    "chromeBackground": {
+      "source": "inkChromePaperBar",
+      "opacity": 1.0
+    },
+    "chromeFloatingButton": {
+      "source": "inkChromePaperBar",
+      "opacity": 1.0
+    },
+    "chromeWell": {
+      "source": "inkChromeWell",
+      "opacity": 1.0
+    },
+    "chromeForeground": {
+      "source": "inkChromeForeground",
+      "opacity": 1.0
+    },
+    "chromeControl": {
+      "source": "inkChromeForeground",
+      "opacity": 0.07
+    },
+    "chromeSubtleFill": {
+      "source": "inkChromeForeground",
+      "opacity": 0.07
+    },
+    "chromeInactive": {
+      "source": "inkChromeForeground",
+      "opacity": 0.5
+    },
+    "chromeIcon": {
+      "source": "inkChromeForeground",
+      "opacity": 0.72
+    },
+    "chromeSecondaryText": {
+      "source": "inkChromeForeground",
+      "opacity": 0.56
+    },
+    "chromeHairline": {
+      "source": "inkChromeForeground",
+      "opacity": 0.08
+    },
+    "readerPanelControl": {
+      "source": "inkChromeForeground",
+      "opacity": 0.06
+    }
+  },
+  "defaultColors": {
+    "refined": {
+      "inkCanvas": {
+        "light": "#F7F5F1",
+        "dark": "#121110"
+      },
+      "inkSurface": {
+        "light": "#FFFFFF",
+        "dark": "#2A2724"
+      },
+      "inkFill": {
+        "light": "#ECE8E1",
+        "dark": "#22201D"
+      },
+      "inkText": {
+        "light": "#1D1B18",
+        "dark": "#F2EFEA"
+      },
+      "inkTextSecondary": {
+        "light": "#857F76",
+        "dark": "#9C968D"
+      },
+      "inkTextTertiary": {
+        "light": "#ADA79E",
+        "dark": "#6E6962"
+      },
+      "inkHairline": {
+        "light": "#1D1B1812",
+        "dark": "#F2EFEA14"
+      },
+      "inkOutline": {
+        "light": "#1D1B1829",
+        "dark": "#F2EFEA2E"
+      },
+      "inkAccent": {
+        "light": "#DB593C",
+        "dark": "#DB593C"
+      },
+      "inkAccentSoft": {
+        "light": "#DB593C1C",
+        "dark": "#DB593C33"
+      },
+      "inkDanger": {
+        "light": "#B3382A",
+        "dark": "#E2705D"
+      },
+      "inkDrawerTop": {
+        "light": "#262320",
+        "dark": "#262320"
+      },
+      "inkDrawerBottom": {
+        "light": "#141211",
+        "dark": "#141211"
+      },
+      "inkDrawerCard": {
+        "light": "#FFFFFF0F",
+        "dark": "#FFFFFF0F"
+      },
+      "inkDrawerHairline": {
+        "light": "#FFFFFF12",
+        "dark": "#FFFFFF12"
+      },
+      "inkDrawerText": {
+        "light": "#F2EDE6",
+        "dark": "#F2EDE6"
+      },
+      "inkChromeForeground": {
+        "light": "#1D1B18",
+        "dark": "#FFFFFF"
+      },
+      "inkChromePaperBar": {
+        "light": "#F6F3ED",
+        "dark": "#1E1C1A"
+      },
+      "inkChromeGlassTint": {
+        "light": "#FBF9F4A8",
+        "dark": "#1C1A17BD"
+      },
+      "inkChromeWell": {
+        "light": "#1D1B1814",
+        "dark": "#00000066"
+      },
+      "inkChromeRim": {
+        "light": "#FFFFFFB2",
+        "dark": "#FFFFFF17"
+      }
+    },
+    "classicApproximate": {
+      "pageCanvas": {
+        "light": "#FFFFFF",
+        "dark": "#000000"
+      },
+      "cardSurface": {
+        "light": "#FFFFFF",
+        "dark": "#000000"
+      },
+      "groupedCanvas": {
+        "light": "#F2F2F7",
+        "dark": "#000000"
+      },
+      "primaryText": {
+        "light": "#000000",
+        "dark": "#FFFFFF"
+      },
+      "secondaryText": {
+        "light": "#3C3C4399",
+        "dark": "#EBEBF599"
+      },
+      "tertiaryText": {
+        "light": "#3C3C434C",
+        "dark": "#EBEBF54C"
+      },
+      "fieldFill": {
+        "light": "#F2F2F7",
+        "dark": "#1C1C1E"
+      }
+    }
+  },
+  "package": {
+    "extension": "mtsktheme",
+    "maxBytes": 20971520,
+    "maxEntries": 200
+  }
+}

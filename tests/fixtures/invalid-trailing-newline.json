@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "id": "theme.test\n",
+  "name": "换行校验",
+  "base": "refined",
+  "colors": {"inkAccent": "#123456\n"},
+  "tokens": {"accent": "#abc\n"}
+}

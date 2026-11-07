@@ -1,0 +1,5 @@
+{"schemaVersion":1,"id":"Bad ID","name":"","base":"dark","extra":1,
+ "colors":{"pageCanvsa":"#fff","cardSurface":"red","fieldFill":{"light":"#fff"},"appTint":"none","inkText":"none","inkFill":{"light":"#fff","dark":"#000","dim":"#111"}},
+ "layout":{"shelfLsit":"ink","catalog":"modern"},
+ "behavior":{"coverFadeIn":1},
+ "tokens":{"largeRadius":99,"buttonRadius":true,"scrim":{"light":"#000","dark":"#000"},"wobble":1,"topBarTitleDesign":"comic"}}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "zhuqing.classic",
+  "name": "竹青",
+  "author": "mtsk",
+  "version": "1.0",
+  "description": "示例主题：保留经典香色布局，强调色换成竹青，按钮、搜索框和结果行用纸墨样式",
+  "base": "classic",
+  "colors": {
+    "appTint": "#2E7D5B",
+    "inkCanvas": { "light": "#FFFFFF", "dark": "#000000" },
+    "inkSurface": { "light": "#FFFFFF", "dark": "#1C1C1E" },
+    "inkFill": { "light": "#EEF3EF", "dark": "#1E2622" },
+    "inkText": { "light": "#16201B", "dark": "#EEF3EF" },
+    "inkTextSecondary": { "light": "#5B6A62", "dark": "#A3B2AA" },
+    "inkTextTertiary": { "light": "#94A39B", "dark": "#6A7871" },
+    "inkHairline": { "light": "#16201B12", "dark": "#EEF3EF14" },
+    "inkOutline": { "light": "#16201B29", "dark": "#EEF3EF2E" },
+    "inkAccent": { "light": "#2E7D5B", "dark": "#4FB388" },
+    "inkAccentSoft": { "light": "#2E7D5B1F", "dark": "#4FB38833" }
+  },
+  "layout": {
+    "button": "ink",
+    "searchBar": "ink",
+    "bookFeedRow": "ink",
+    "pageState": "ink"
+  },
+  "tokens": {
+    "accent": "#2E7D5B",
+    "readerAccent": "#2E7D5B",
+    "buttonOrange": "#3C9A6E"
+  }
+}

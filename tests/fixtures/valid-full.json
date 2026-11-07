@@ -1,0 +1,5 @@
+{"schemaVersion":1,"id":"full.theme","name":"完整","author":"a","version":"2.0","description":"d","base":"refined",
+ "colors":{"inkCanvas":{"light":"#FFF","dark":"#000000"},"inkAccent":"#12345678","appTint":"none","siteCheckActive":"#0F0"},
+ "layout":{"shelfList":"classic","readerBars":"ink"},
+ "behavior":{"coverFadeIn":false,"comicForcesDarkScheme":true},
+ "tokens":{"largeRadius":0,"pressedScale":0.85,"floatingShadowX":-40,"accent":"#ABCDEF","topBarTitleWeight":"heavy","topBarTitleDesign":"monospaced"}}

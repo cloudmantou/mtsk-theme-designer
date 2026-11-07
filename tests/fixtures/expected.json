@@ -1,0 +1,16 @@
+{
+  "_comment": "每个夹具在 App（ThemeSkillSpecTests）和 theme_tool.py（test_theme_tool.py）里校验出的问题路径必须完全一致。",
+  "valid-minimal.json": [],
+  "valid-full.json": [],
+  "invalid-trailing-newline.json": ["id", "colors.inkAccent", "tokens.accent"],
+  "invalid-nonfinite.json": ["$"],
+  "invalid-array.json": ["$"],
+  "invalid-future.json": ["schemaVersion"],
+  "invalid-missing.json": ["base", "id", "schemaVersion"],
+  "invalid-hex-sign.json": ["colors.inkAccent.light", "colors.pageCanvas", "tokens.accent"],
+  "invalid-nulls.json": ["author", "behavior", "colors", "layout", "tokens"],
+  "invalid-types.json": ["author", "behavior", "colors", "id", "layout", "schemaVersion", "tokens"],
+  "invalid-many.json": ["base", "behavior.coverFadeIn", "colors.cardSurface", "colors.fieldFill", "colors.inkFill.dim",
+    "colors.inkText", "colors.pageCanvsa", "extra", "id", "layout.catalog", "layout.shelfLsit", "name",
+    "tokens.buttonRadius", "tokens.largeRadius", "tokens.scrim", "tokens.topBarTitleDesign", "tokens.wobble"]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "sakura.pink",
+  "name": "樱花",
+  "author": "mtsk",
+  "version": "1.0",
+  "description": "示例主题：基于纸墨，粉白配色，书架改回经典列表",
+  "base": "refined",
+  "colors": {
+    "inkCanvas": {
+      "light": "#FFF6F8",
+      "dark": "#1C1416"
+    },
+    "inkSurface": {
+      "light": "#FFFFFF",
+      "dark": "#2A1F22"
+    },
+    "inkFill": {
+      "light": "#F7E4E9",
+      "dark": "#33262A"
+    },
+    "inkText": {
+      "light": "#2B1B20",
+      "dark": "#F6E9EC"
+    },
+    "inkTextSecondary": {
+      "light": "#8A6F77",
+      "dark": "#B39CA3"
+    },
+    "inkTextTertiary": {
+      "light": "#B89DA5",
+      "dark": "#7A666C"
+    },
+    "inkAccent": "#E0607E",
+    "inkAccentSoft": {
+      "light": "#E0607E1C",
+      "dark": "#E0607E33"
+    },
+    "inkDrawerTop": "#3A2228",
+    "inkDrawerBottom": "#1E1114",
+    "appTint": "#E0607E"
+  },
+  "layout": {
+    "shelfList": "classic"
+  },
+  "behavior": {
+    "staggeredShelfAppear": false
+  },
+  "tokens": {
+    "accent": "#E0607E",
+    "readerAccent": "#E0607E",
+    "buttonOrange": "#E0607E",
+    "largeRadius": 24,
+    "topBarTitleDesign": "rounded"
+  }
+}

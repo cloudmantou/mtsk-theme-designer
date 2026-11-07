@@ -1,0 +1,4 @@
+interface:
+  display_name: "红笺墨语主题制作"
+  short_description: "为红笺墨语编写深浅色界面主题，校验、预览并打包供 App 导入"
+  default_prompt: "用 $mtsk-theme-designer 为红笺墨语制作一个海盐蓝界面主题，兼顾深浅色，校验后生成预览和可导入的 .mtsktheme 文件。"
